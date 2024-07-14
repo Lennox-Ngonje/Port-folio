@@ -1,0 +1,126 @@
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*search box css start here*/
+.bg1{
+    background-color: hsl(128, 100%, 50%);
+}
+
+.btn1{
+    background-color: hsl(128, 100%, 50%);
+}
+
+.btn1:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+
+.text1:hover{
+    background-color: hsla(128, 100%, 50%, 0.719);
+    color: rgb(0, 0, 0);
+}
+
+
+.search-sec {
+    padding: 2rem;
+}
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .search-sec {
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+
+    
+}
+
+@media (max-width: 992px) {
+    .search-sec {
+        background: #1A4668;
+    }
+
+    .btn2 {
+            width: 1600px;
+        }
+    
+}
+
+@media (max-width: 992px) {
+
+    .btn2 {
+            width: 1600px;
+    }
+}
+
+@media (max-width: 656px) {
+
+    .btn2 {
+        width: 400px;
+    }
+    .text1{
+        font-size: -0px;
+    }
+}
+
+.bg2 {
+    background-color: hsla(128, 100%, 50%, 0.795);
+    opacity: 25;
+    
+}
+
+.newsletter {
+    padding: 30px 0;
+    background: #19beda;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 600;
+}
+
+.text2:hover{
+   color: hsl(128, 100%, 50%);
+}
+
